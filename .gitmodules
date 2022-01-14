@@ -4,3 +4,6 @@
 [submodule "blog-hexo/themes/next"]
 	path = blog-hexo/themes/next
 	url = https://github.com/theme-next/hexo-theme-next
+[submodule "blog-hugo/themes/PaperMod"]
+	path = blog-hugo/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

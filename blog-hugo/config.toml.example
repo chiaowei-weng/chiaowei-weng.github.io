@@ -4,5 +4,9 @@ title = 'Cosmo Page'
 
 theme="ananke"
 
+contentdir = "../docs"
+dataDir = "../docs/_data"
+
 [permalinks]
   posts = "/:year/:month/:title/"
+  _posts = "/:year/:month/:title/"
