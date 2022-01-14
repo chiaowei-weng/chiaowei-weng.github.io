@@ -2,33 +2,30 @@
      <h1>XXX</h1>
      <div>
          <span>
-             <img src="assets/phone-solid.svg" width="18px">
-             0900000000
+             <a href="mailto:cosmos@gmail.com">
+                <img src="assets/envelope-solid.svg" width="18px">
+             </a>
          </span>
-         ·
          <span>
-             <img src="assets/envelope-solid.svg" width="18px">
-             cosmos@gmail.com
+             <a href="https://github.com/chiaowei-weng">
+                <img src="assets/github-brands.svg" width="18px">
+             </a>
          </span>
-         ·
          <span>
-             <img src="assets/github-brands.svg" width="18px">
-             <a href="https://github.com/chiaowei-weng">GitHub</a>
+             <a href="https://chiaowei-weng.github.io/blog-hexo/">
+                <img src="assets/rss-solid.svg" width="18px">
+             </a>
          </span>
-         ·
          <span>
-             <img src="assets/rss-solid.svg" width="18px">
-             <a href="https://chiaowei-weng.github.io/blog-hexo/">My Blog(hexo)</a>
-         </span>
-                  ·
-         <span>
-             <img src="assets/rss-solid.svg" width="18px">
-             <a href="https://chiaowei-weng.github.io/blog-hugo/">My Blog(hugo)</a>
+             <a href="https://chiaowei-weng.github.io/blog-hugo/">
+                <img src="assets/rss-solid.svg" width="18px">
+             </a>
          </span>
      </div>
  </center>
+<br>
 
- ## <img src="assets/info-circle-solid.svg" width="30px"> 個人資訊
+## <img src="assets/info-circle-solid.svg" width="30px"> 個人資訊
 
  - 男，1991 年出生
  - 求職意向：軟體工程師
@@ -58,6 +55,6 @@
 ## <img src="assets/tools-solid.svg" width="30px"> 技能清單
 
 - ★★★ MySQL
-- ★★★ Redis
-- ★★☆ JavaScript
-- ★★☆ PHP
+- ★★☆ Redis
+- ★★★ JavaScript
+- ★★★ PHP
