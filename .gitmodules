@@ -1,3 +1,6 @@
 [submodule "blog-hugo/themes/ananke"]
 	path = blog-hugo/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "blog-hexo/themes/next"]
+	path = blog-hexo/themes/next
+	url = https://github.com/theme-next/hexo-theme-next
