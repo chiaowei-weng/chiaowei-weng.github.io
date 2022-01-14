@@ -1,0 +1,9 @@
+baseURL = 'https://chiaowei-weng.github.io/blog-hugo/'
+languageCode = 'en-us'
+title = 'Cosmo Page'
+
+
+theme="hyde"
+
+[permalinks]
+  posts = "/:year/:month/:title/"

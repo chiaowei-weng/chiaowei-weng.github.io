@@ -1,2 +1,3 @@
 exclude:
   - "blog-hexo/"
+  - "blog-hugo/"
