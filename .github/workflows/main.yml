@@ -28,6 +28,6 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: chiaowei-weng/blog-hugo
-          PUBLISH_BRANCH: gh-pages # 推送到 gh-pages 分支
-          PUBLISH_DIR: ./blog-hugo/public # hugo 生成的目錄
+          publish_branch: gh-pages # 推送到 gh-pages 分支
+          publish_dir: ./blog-hugo/public # hugo 生成的目錄
           commit_message: ${{ github.event.head_commit.message }}
