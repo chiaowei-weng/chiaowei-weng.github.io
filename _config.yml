@@ -1,3 +1,2 @@
-include:
-exclude: ["./blog-hexo"]
-ignore:
+exclude:
+  - "blog-hexo/"
