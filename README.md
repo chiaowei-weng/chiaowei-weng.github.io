@@ -4,7 +4,7 @@
 </head>
  
  <center>
-     <h1>XXX</h1>
+     <h1> Cosmo </h1>
      <div>
          <span>
              <a href="mailto:cosmos@gmail.com">
