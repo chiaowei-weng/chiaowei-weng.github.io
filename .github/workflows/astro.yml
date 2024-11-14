@@ -42,7 +42,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile  # 禁用 frozen-lockfile 以解决锁文件不同步问题
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Astro
