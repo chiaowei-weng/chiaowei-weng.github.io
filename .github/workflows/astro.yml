@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  BUILD_PATH: "."  # 根目录，默认值
+  BUILD_PATH: "."
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: "latest"  # 指定你需要的 pnpm 版本
+          version: "latest"
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -42,7 +42,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile  # 禁用 frozen-lockfile 以解决锁文件不同步问题
+        run: pnpm install --no-frozen-lockfile  # 禁用 frozen-lockfile
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Astro
