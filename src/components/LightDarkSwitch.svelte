@@ -99,7 +99,7 @@ function hidePanel() {
 </div>
 
 <style lang="css">
-.current-setting {
+.current-theme-btn {
     background: var(--btn-plain-bg-hover);
     color: var(--primary);
 }

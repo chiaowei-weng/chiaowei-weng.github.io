@@ -120,7 +120,7 @@ export default defineConfig({
     ],
   },
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss({ optimize: false })],
     build: {
       rollupOptions: {
         onwarn(warning, warn) {
