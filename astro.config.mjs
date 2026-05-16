@@ -1,10 +1,10 @@
 import sitemap from '@astrojs/sitemap'
 import svelte from '@astrojs/svelte'
-import tailwind from '@astrojs/tailwind'
 import swup from '@swup/astro'
 import Compress from 'astro-compress'
 import icon from 'astro-icon'
 import { defineConfig } from 'astro/config'
+import tailwindcss from '@tailwindcss/vite'
 import Color from 'colorjs.io'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeComponents from 'rehype-components' /* Render the custom directive content */
@@ -35,7 +35,6 @@ export default defineConfig({
   base: '/',
   trailingSlash: 'always',
   integrations: [
-    tailwind(),
     swup({
       theme: false,
       animationClass: 'transition-swup-', // see https://swup.js.org/options/#animationselector
@@ -58,7 +57,9 @@ export default defineConfig({
         'fa6-solid': ['*'],
       },
     }),
-    svelte(),
+    svelte({
+      exclude: /\x00astro-entry:/,
+    }),
     sitemap(),
     Compress({
       CSS: false,
@@ -119,6 +120,7 @@ export default defineConfig({
     ],
   },
   vite: {
+    plugins: [tailwindcss()],
     build: {
       rollupOptions: {
         onwarn(warning, warn) {
