@@ -1,0 +1,38 @@
+---
+---
+<div id="comments" class="mt-6 rounded-xl card-base px-6 md:px-9 py-6 onload-animation">
+  <script
+    src="https://utteranc.es/client.js"
+    repo="chiaowei-weng/chiaowei-weng.github.io"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async
+  ></script>
+</div>
+
+<script>
+  function applyUtterancesTheme() {
+    const isDark = document.documentElement.classList.contains('dark')
+    const theme = isDark ? 'github-dark' : 'github-light'
+    const iframe = document.querySelector<HTMLIFrameElement>('.utterances-frame')
+    if (iframe) {
+      iframe.contentWindow?.postMessage(
+        { type: 'set-theme', theme },
+        'https://utteranc.es'
+      )
+    }
+  }
+
+  // 頁面載入後同步一次
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(applyUtterancesTheme, 1000)
+  })
+
+  // 監聽深色模式切換
+  const observer = new MutationObserver(applyUtterancesTheme)
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class'],
+  })
+</script>
