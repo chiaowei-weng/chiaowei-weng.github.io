@@ -5,7 +5,7 @@ description: '2026 生成式 AI 年會第一天記錄，涵蓋開發者年會（
 image: ''
 tags: ['AI', '研討會', 'Agent', 'Harness']
 category: '開發'
-draft: true
+draft: false
 lang: 'zh-TW'
 
 ---
