@@ -32,7 +32,7 @@ Context 是自己能做的部分 — 把領域專家的 know-how 挖出來整理
 
 ### AI Agent 工程實戰：從 PoC 到 Production 的關鍵實踐
 
-**ihower** · 愛好資訊科技 AI Engineer
+**ihower** · 愛好資訊科技 AI Engineer · [投影片](https://ihower.tw/presentation/harness.html)
 
 **Harness 是什麼**
 
@@ -89,7 +89,7 @@ Context 是自己能做的部分 — 把領域專家的 know-how 挖出來整理
 
 ### 從零開始養一隻會查帳的狗——那些年我們在打造會計系統時所經歷過的一切
 
-**小馮** · 薩泰爾娛樂全端工程師
+**小馮** · 薩泰爾娛樂全端工程師 · [投影片](https://www.canva.com/design/DAHMy6I4Qcw/_hwSWZohMu2PgSukPn2dQg/view)
 
 用 DDD（領域驅動設計）重構帳務系統：命名就是地圖，重新定義所有名詞，細到每個角落。主要解決跨帳務專案的查詢問題，統一格式是前提。
 
